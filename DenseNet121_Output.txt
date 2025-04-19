@@ -1,0 +1,148 @@
+Class dağılımı:
+  SAĞLIKLI: 2279 (88.40%)
+  BENIGN: 231 (8.96%)
+  MALIGN: 68 (2.64%)
+Excel'den 6 hasta sayfası ile 2578 görüntü başarıyla yüklendi
+Etiket eşleştirmesi: {'SAĞLIKLI': 0, 'BENIGN': 1, 'MALIGN': 2}
+Etiketlerle birlikte 2578 görüntü yüklendi
+Etiket eşleştirmesi: {'SAĞLIKLI': 0, 'BENIGN': 1, 'MALIGN': 2}
+Data loader'lar oluşturuluyor...
+Training set boyutu: 2062
+Validation set boyutu: 516
+Class weight'leri: {0: 0.3770341927226184, 1: 3.715315315315315, 2: 12.728395061728396}
+Model oluşturuluyor...
+model.safetensors: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 32.3M/32.3M [00:03<00:00, 8.73MB/s]
+Model eğitiliyor...
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Epoch 1/15 [Train]: 100%|█████████████████████████████████████████████████████████████████████████| 129/129 [01:13<00:00,  1.76it/s, acc=0.792, loss=0.289]
+Epoch 1/15 [Val]: 100%|█████████████████████████████████████████████████████████████████████████████| 33/33 [00:28<00:00,  1.14it/s, acc=0.824, loss=0.942]
+Epoch 1/15:
+  Train Loss: 0.7731, Train Acc: 0.7919
+  Val Loss: 1.5268, Val Acc: 0.8236
+  Model checkpoint şuraya kaydedildi: best_model.pth
+Epoch 2/15 [Train]: 100%|█████████████████████████████████████████████████████████████████████████| 129/129 [01:15<00:00,  1.72it/s, acc=0.832, loss=0.255]
+Epoch 2/15 [Val]: 100%|██████████████████████████████████████████████████████████████████████████████| 33/33 [00:27<00:00,  1.20it/s, acc=0.94, loss=0.396]
+Epoch 2/15:
+  Train Loss: 0.6075, Train Acc: 0.8322
+  Val Loss: 0.3866, Val Acc: 0.9399
+  Model checkpoint şuraya kaydedildi: best_model.pth
+Epoch 3/15 [Train]: 100%|█████████████████████████████████████████████████████████████████████████| 129/129 [01:11<00:00,  1.81it/s, acc=0.903, loss=0.662]
+Epoch 3/15 [Val]: 100%|█████████████████████████████████████████████████████████████████████████████| 33/33 [00:27<00:00,  1.22it/s, acc=0.928, loss=0.725]
+Epoch 3/15:
+  Train Loss: 0.4096, Train Acc: 0.9035
+  Val Loss: 0.3979, Val Acc: 0.9283
+Epoch 4/15 [Train]: 100%|████████████████████████████████████████████████████████████████████████| 129/129 [01:11<00:00,  1.80it/s, acc=0.936, loss=0.0503]
+Epoch 4/15 [Val]: 100%|████████████████████████████████████████████████████████████████████████████| 33/33 [00:27<00:00,  1.21it/s, acc=0.969, loss=0.0231]
+Epoch 4/15:
+  Train Loss: 0.3160, Train Acc: 0.9365
+  Val Loss: 0.4011, Val Acc: 0.9690
+Epoch 5/15 [Train]: 100%|█████████████████████████████████████████████████████████████████████████| 129/129 [01:12<00:00,  1.79it/s, acc=0.951, loss=0.124]
+Epoch 5/15 [Val]: 100%|████████████████████████████████████████████████████████████████████████████| 33/33 [00:28<00:00,  1.17it/s, acc=0.944, loss=0.0137]
+Epoch 5/15:
+  Train Loss: 0.2252, Train Acc: 0.9510
+  Val Loss: 0.2674, Val Acc: 0.9438
+  Model checkpoint şuraya kaydedildi: best_model.pth
+Epoch 6/15 [Train]: 100%|█████████████████████████████████████████████████████████████████████████| 129/129 [01:09<00:00,  1.87it/s, acc=0.928, loss=0.204]
+Epoch 6/15 [Val]: 100%|████████████████████████████████████████████████████████████████████████████| 33/33 [00:30<00:00,  1.09it/s, acc=0.957, loss=0.0287]
+Epoch 6/15:
+  Train Loss: 0.3412, Train Acc: 0.9277
+  Val Loss: 0.5802, Val Acc: 0.9574
+Epoch 7/15 [Train]: 100%|████████████████████████████████████████████████████████████████████████| 129/129 [01:11<00:00,  1.81it/s, acc=0.947, loss=0.0313]
+Epoch 7/15 [Val]: 100%|███████████████████████████████████████████████████████████████████████████████| 33/33 [00:28<00:00,  1.17it/s, acc=0.56, loss=2.24]
+Epoch 7/15:
+  Train Loss: 0.2894, Train Acc: 0.9471
+  Val Loss: 0.9251, Val Acc: 0.5601
+Epoch 8/15 [Train]: 100%|████████████████████████████████████████████████████████████████████████| 129/129 [01:10<00:00,  1.82it/s, acc=0.947, loss=0.0875]
+Epoch 8/15 [Val]: 100%|████████████████████████████████████████████████████████████████████████████| 33/33 [00:27<00:00,  1.22it/s, acc=0.952, loss=0.0679]
+Epoch 8/15:
+  Train Loss: 0.2387, Train Acc: 0.9471
+  Val Loss: 0.4296, Val Acc: 0.9516
+Epoch 9/15 [Train]: 100%|███████████████████████████████████████████████████████████████████████████| 129/129 [01:13<00:00,  1.75it/s, acc=0.962, loss=1.4]
+Epoch 9/15 [Val]: 100%|█████████████████████████████████████████████████████████████████████████████| 33/33 [00:27<00:00,  1.21it/s, acc=0.963, loss=0.001]
+Epoch 9/15:
+  Train Loss: 0.1936, Train Acc: 0.9617
+  Val Loss: 0.2561, Val Acc: 0.9632
+  Model checkpoint şuraya kaydedildi: best_model.pth
+Epoch 10/15 [Train]: 100%|███████████████████████████████████████████████████████████████████████| 129/129 [01:09<00:00,  1.86it/s, acc=0.969, loss=0.0459]
+Epoch 10/15 [Val]: 100%|███████████████████████████████████████████████████████████████████████████| 33/33 [00:27<00:00,  1.21it/s, acc=0.965, loss=0.0108]
+Epoch 10/15:
+  Train Loss: 0.1782, Train Acc: 0.9694
+  Val Loss: 0.1986, Val Acc: 0.9651
+  Model checkpoint şuraya kaydedildi: best_model.pth
+Epoch 11/15 [Train]: 100%|████████████████████████████████████████████████████████████████████████| 129/129 [01:09<00:00,  1.87it/s, acc=0.97, loss=0.0484]
+Epoch 11/15 [Val]: 100%|██████████████████████████████████████████████████████████████████████████| 33/33 [00:27<00:00,  1.20it/s, acc=0.913, loss=0.00517]
+Epoch 11/15:
+  Train Loss: 0.1699, Train Acc: 0.9704
+  Val Loss: 2.9259, Val Acc: 0.9128
+Epoch 12/15 [Train]: 100%|███████████████████████████████████████████████████████████████████████| 129/129 [01:09<00:00,  1.86it/s, acc=0.955, loss=0.0209]
+Epoch 12/15 [Val]: 100%|██████████████████████████████████████████████████████████████████████████| 33/33 [00:27<00:00,  1.21it/s, acc=0.969, loss=0.00124]
+Epoch 12/15:
+  Train Loss: 0.1766, Train Acc: 0.9554
+  Val Loss: 0.2511, Val Acc: 0.9690
+Epoch 13/15 [Train]: 100%|███████████████████████████████████████████████████████████████████████| 129/129 [01:11<00:00,  1.80it/s, acc=0.962, loss=0.0535]
+Epoch 13/15 [Val]: 100%|█████████████████████████████████████████████████████████████████████████████| 33/33 [00:27<00:00,  1.20it/s, acc=0.95, loss=0.418]
+Epoch 13/15:
+  Train Loss: 0.1733, Train Acc: 0.9622
+  Val Loss: 0.4441, Val Acc: 0.9496
+Epoch 14/15 [Train]: 100%|███████████████████████████████████████████████████████████████████████| 129/129 [01:09<00:00,  1.86it/s, acc=0.972, loss=0.0835]
+Epoch 14/15 [Val]: 100%|████████████████████████████████████████████████████████████████████████████| 33/33 [00:27<00:00,  1.21it/s, acc=0.934, loss=0.193]
+Epoch 14/15:
+  Train Loss: 0.1311, Train Acc: 0.9724
+  Val Loss: 0.2038, Val Acc: 0.9341
+Epoch 15/15 [Train]: 100%|███████████████████████████████████████████████████████████████████████| 129/129 [01:09<00:00,  1.85it/s, acc=0.984, loss=0.0803]
+Epoch 15/15 [Val]: 100%|█████████████████████████████████████████████████████████████████████████| 33/33 [00:26<00:00,  1.22it/s, acc=0.979, loss=0.000945]
+Epoch 15/15:
+  Train Loss: 0.1271, Train Acc: 0.9840
+  Val Loss: 0.1370, Val Acc: 0.9787
+  Model checkpoint şuraya kaydedildi: best_model.pth
+2025-04-18 22:08:26.519 Python[46092:17609736] The class 'NSSavePanel' overrides the method identifier.  This method is implemented by class 'NSWindow'
+Model yükleniyor...
+Değerlendirme için data loader'lar oluşturuluyor...
+Training set boyutu: 2062
+Validation set boyutu: 516
+Class weight'leri: {0: 0.3770341927226184, 1: 3.715315315315315, 2: 12.728395061728396}
+Model değerlendiriliyor...
+Evaluating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████| 33/33 [00:27<00:00,  1.20it/s]
+Genel Metric'ler:
+  accuracy: 0.9787
+  macro_precision: 0.9053
+  macro_recall: 0.9724
+  macro_f1: 0.9367
+
+Class'a Özgü Metric'ler:
+  SAĞLIKLI:
+    precision: 0.9978
+    recall: 0.9825
+    f1: 0.9901
+  BENIGN:
+    precision: 0.8431
+    recall: 0.9348
+    f1: 0.8866
+  MALIGN:
+    precision: 0.8750
+    recall: 1.0000
+    f1: 0.9333
+Tüm görüntüler için tahminler yapılıyor...
+Predicting: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 162/162 [00:23<00:00,  6.90it/s]
+Doktor ve CNN karşılaştırılıyor...
+
+Genel Metrikler:
+  Doğruluk: 0.9888
+  Cohen's Kappa: 0.9477
+
+Sınıfa Özgü Uyum:
+  SAĞLIKLI:
+    Toplam vaka: 2279
+    Uyum oranı: 0.9921
+    Doğru sayı: 2261
+  BENIGN:
+    Toplam vaka: 231
+    Uyum oranı: 0.9524
+    Doğru sayı: 220
+  MALIGN:
+    Toplam vaka: 68
+    Uyum oranı: 1.0000
+    Doğru sayı: 68
+
+Karşılaştırma sonuçları doctor_vs_cnn_comparison.xlsx dosyasına kaydedildi
