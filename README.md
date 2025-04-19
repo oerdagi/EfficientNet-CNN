@@ -1,4 +1,4 @@
-# EfficientNet-CNN
+# Cancerous Cell Diagnosis
 
 H1_Data/hasta1_png
 ... H1_Data/hasta2_png
